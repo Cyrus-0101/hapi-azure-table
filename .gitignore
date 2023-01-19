@@ -2,4 +2,4 @@ coverage/
 node_modules/
 config.json
 package-lock.json
-.env
+mvc/utils/.env.js
