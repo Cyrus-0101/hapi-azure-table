@@ -1,0 +1,26 @@
+{
+  "name": "hapi-api",
+  "version": "0.0.1",
+  "description": "Hapi API to work on data in Azure Table Storage",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Cyrus-0101/hapi-azure-table.git"
+  },
+  "author": "Cyrus Ndirangu",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Cyrus-0101/hap-azure-table/issues"
+  },
+  "homepage": "https://github.com/Cyrus-0101/hap-azure-table#readme",
+  "dependencies": {
+    "@azure/data-tables": "^13.2.1",
+    "@hapi/hapi": "^21.2.0",
+    "nconf": "^0.12.0"
+  }
+}
